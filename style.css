@@ -1,0 +1,36 @@
+.parent {
+    border: solid;
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1 {
+    margin: 10px;
+}
+
+.recipe-list li {
+    padding: 2px;
+}
+
+ol, li {
+    list-style-position: inside;
+}
+
+.ingredients, .directions {
+    padding: 10px;
+}
+
+.link {
+    padding: 10px;
+    margin-bottom: 10px;
+}
